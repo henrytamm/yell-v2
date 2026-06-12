@@ -1,0 +1,93 @@
+/* Review Card */
+.review-border {
+  padding: 20px 0;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.review-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.profile-pic {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.review-username {
+  font-size: 15px;
+  font-weight: 700;
+  color: #0073bb;
+}
+
+.review-username:hover {
+  text-decoration: underline;
+}
+
+.stars-container {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  margin-bottom: 8px;
+}
+
+.stars-container .star {
+  color: #f43939;
+  font-size: 14px;
+}
+
+.stars-container .star.empty {
+  color: #ccc;
+}
+
+.review-created-at {
+  font-size: 13px;
+  color: #999;
+  margin-bottom: 8px;
+}
+
+.review-review {
+  font-size: 15px;
+  color: #333;
+  line-height: 1.5;
+  margin-bottom: 12px;
+}
+
+.edit-del-btn {
+  display: flex;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.edit-review-button,
+.delete-review-button {
+  cursor: pointer;
+  padding: 6px 14px;
+  font-size: 13px;
+  font-weight: 600;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  background: #fff;
+  color: #333;
+  transition: all 0.2s;
+}
+
+.edit-review-button:hover,
+.delete-review-button:hover {
+  background: #f5f5f5;
+  border-color: #999;
+}
+
+.delete-review-button {
+  color: #d32323;
+  border-color: #d32323;
+}
+
+.delete-review-button:hover {
+  background: #d32323;
+  color: #fff;
+}

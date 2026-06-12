@@ -1,0 +1,25 @@
+services:
+  - type: web
+    name: yell-v2
+    runtime: python
+    plan: free
+    buildCommand: |
+      pip install -r requirements.txt &&
+      cd react-app && npm install && npm run build &&
+      cd .. && flask db upgrade && flask seed all
+    startCommand: gunicorn --bind 0.0.0.0:$PORT "app:app"
+    envVars:
+      - key: FLASK_ENV
+        value: production
+      - key: SECRET_KEY
+        generateValue: true
+      - key: DATABASE_URL
+        sync: false
+      - key: SCHEMA
+        value: flask_schema
+      - key: REACT_APP_GOOGLE_MAPS_KEY
+        sync: false
+      - key: PYTHON_VERSION
+        value: 3.9.18
+      - key: NODE_VERSION
+        value: 16.20.2

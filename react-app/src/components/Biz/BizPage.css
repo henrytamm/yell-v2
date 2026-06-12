@@ -1,0 +1,38 @@
+/* Reviews Section */
+.rec-reviews {
+  font-size: 22px;
+  font-weight: 700;
+  color: #333;
+  margin-top: 32px;
+  margin-bottom: 16px;
+}
+
+.review-list-container {
+  max-width: 1020px;
+  margin: 0 auto;
+  padding: 0 20px 40px;
+}
+
+.review-card-comp {
+  display: flex;
+  gap: 32px;
+}
+
+.reviews-list {
+  flex: 1;
+}
+
+.create-review-container {
+  width: 320px;
+  flex-shrink: 0;
+  position: sticky;
+  top: 80px;
+  align-self: flex-start;
+}
+
+.create-review-container h3 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 16px;
+}

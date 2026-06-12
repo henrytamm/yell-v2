@@ -1,0 +1,169 @@
+/* Business Detail Page */
+.biz-top-container {
+  max-width: 1020px;
+  margin: 0 auto;
+  padding: 24px 20px;
+}
+
+.biz-name-2 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+.biz-stars-summary {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 16px;
+}
+
+.biz-stars-summary .star {
+  color: #f43939;
+  font-size: 20px;
+}
+
+.biz-stars-summary .star.empty {
+  color: #ccc;
+}
+
+.main-biz-holder {
+  display: flex;
+  gap: 24px;
+  margin-top: 24px;
+}
+
+.biz-main-content {
+  flex: 1;
+}
+
+.biz-image {
+  width: 100%;
+  max-width: 640px;
+  height: 360px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.biz-sidebar {
+  width: 320px;
+  flex-shrink: 0;
+}
+
+.biz-sidebar-card {
+  border: 1px solid #e6e6e6;
+  border-radius: 8px;
+  padding: 20px;
+  background: #fff;
+}
+
+.biz-location-hours {
+  font-size: 16px;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 12px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.biz-address,
+.biz-city-state {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 4px;
+}
+
+.map-holder {
+  margin-top: 16px;
+  font-weight: normal;
+}
+
+.biz-hours {
+  margin-top: 16px;
+  padding-top: 16px;
+  border-top: 1px solid #e6e6e6;
+}
+
+/* About Section */
+.biz-desc {
+  font-size: 18px;
+  font-weight: 700;
+  color: #333;
+  margin-top: 32px;
+  margin-bottom: 12px;
+}
+
+.biz-desc-2 {
+  font-size: 15px;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 24px;
+}
+
+/* Action Buttons */
+.edit-biz-btn-container {
+  display: flex;
+  gap: 12px;
+  margin: 24px 0;
+}
+
+.edit-biz-btn {
+  cursor: pointer;
+  padding: 10px 20px;
+  background-color: #fff;
+  color: #333;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 600;
+  transition: all 0.2s;
+}
+
+.edit-biz-btn:hover {
+  background-color: #f5f5f5;
+  border-color: #999;
+}
+
+.delete-biz-btn {
+  cursor: pointer;
+  padding: 10px 20px;
+  background-color: #fff;
+  color: #d32323;
+  border: 1px solid #d32323;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 600;
+  transition: all 0.2s;
+}
+
+.delete-biz-btn:hover {
+  background-color: #d32323;
+  color: #fff;
+}
+
+.end-of-info-line {
+  border-bottom: 1px solid #e6e6e6;
+  margin-top: 24px;
+}
+
+/* Write a Review CTA */
+.write-review-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 24px;
+  background-color: #d32323;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 0.2s;
+  margin-top: 16px;
+}
+
+.write-review-btn:hover {
+  background-color: #b91c1c;
+}

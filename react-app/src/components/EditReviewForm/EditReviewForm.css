@@ -1,0 +1,36 @@
+.review-logo{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    line-height: 30px;
+    margin-bottom: 15px;
+    margin-top: 150px;
+    margin-left: 10px
+  }
+  
+  
+  .errors-container{
+    font-size: 12px;
+    color: red;
+    margin-left: -18px;
+  }
+  
+  .submit-btn{
+    cursor: pointer;
+    padding: 12px;
+    width: 150px;
+    background-color: red;
+    color: white;
+    border: 1px solid rgba(200, 200, 200, 1);
+    border-radius: 5px;
+    margin-left: 40px;
+    font-size: 15px;
+  }
+  
+  .review-container{
+    padding-left: 40px;
+  }
+
+  .edit-review-header{
+    padding-left: 40px
+  }

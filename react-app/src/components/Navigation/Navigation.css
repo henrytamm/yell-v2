@@ -1,0 +1,56 @@
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 32px;
+  background-color: #d32323;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.hidden {
+  display: none;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 80px;
+  height: auto;
+  filter: brightness(0) invert(1);
+}
+
+.search-bar-container {
+  display: flex;
+  flex: 1;
+  max-width: 600px;
+  margin: 0 32px;
+}
+
+.profile-button-container {
+  display: flex;
+  align-items: center;
+}
+
+.create-biz-button {
+  color: #fff;
+  background: rgba(255, 255, 255, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-radius: 4px;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  margin-right: 16px;
+  transition: background 0.2s;
+}
+
+.create-biz-button:hover {
+  background: rgba(255, 255, 255, 0.25);
+  text-decoration: none;
+}

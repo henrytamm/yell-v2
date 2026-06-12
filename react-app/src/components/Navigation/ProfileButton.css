@@ -1,0 +1,95 @@
+.profile-dropdown {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  position: absolute;
+  top: 56px;
+  right: 32px;
+  box-sizing: border-box;
+  border: 1px solid #e6e6e6;
+  padding: 12px;
+  background-color: #fff;
+  list-style-type: none;
+  border-radius: 6px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+  min-width: 180px;
+  z-index: 200;
+}
+
+.profile-dropdown li {
+  padding: 8px 12px;
+  font-size: 14px;
+  color: #333;
+}
+
+.create-spot-button {
+  color: #d32323;
+  font-weight: 600;
+}
+
+.log-out {
+  background-color: transparent;
+  font-size: 14px;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  color: #333;
+  text-align: left;
+  width: 100%;
+  border-radius: 4px;
+}
+
+.log-out:hover {
+  background-color: #f5f5f5;
+}
+
+.login-signup-container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.log-in-btn {
+  cursor: pointer;
+  padding: 8px 16px;
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 600;
+  transition: all 0.2s;
+}
+
+.log-in-btn:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.sign-up-btn {
+  cursor: pointer;
+  padding: 8px 16px;
+  background-color: #fff;
+  color: #d32323;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 700;
+  transition: all 0.2s;
+}
+
+.sign-up-btn:hover {
+  background-color: #f5f5f5;
+}
+
+.profile-button-click {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  cursor: pointer;
+  border: 2px solid rgba(255, 255, 255, 0.6);
+  transition: border-color 0.2s;
+}
+
+.profile-button-click:hover {
+  border-color: #fff;
+}

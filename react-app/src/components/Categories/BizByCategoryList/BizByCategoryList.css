@@ -1,0 +1,23 @@
+.BizByCategoryListContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.BizByCategoryList {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content:center;
+  padding: 15px;
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.error-msg{
+  display: flex;
+  justify-content: center;
+}

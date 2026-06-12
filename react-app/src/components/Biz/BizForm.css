@@ -1,0 +1,83 @@
+.create-biz-form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+.create-biz-label {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 16px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #333;
+}
+
+.create-biz-label input,
+.create-biz-label textarea,
+.create-biz-label select {
+  margin-top: 6px;
+  padding: 10px 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 15px;
+  transition: border-color 0.2s;
+}
+
+.create-biz-label input:focus,
+.create-biz-label textarea:focus,
+.create-biz-label select:focus {
+  border-color: #d32323;
+  outline: none;
+}
+
+.create-container {
+  margin-top: 16px;
+  margin-bottom: 24px;
+  font-size: 28px;
+  font-weight: 700;
+  color: #333;
+}
+
+.btn-container {
+  display: flex;
+  gap: 12px;
+  margin-top: 24px;
+}
+
+.create-btn {
+  cursor: pointer;
+  padding: 12px 24px;
+  background-color: #d32323;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 15px;
+  font-weight: 700;
+  transition: background 0.2s;
+}
+
+.create-btn:hover {
+  background-color: #b91c1c;
+}
+
+.cancel-btn {
+  padding: 12px 24px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+  color: #333;
+  font-size: 15px;
+  font-weight: 600;
+  background: #fff;
+  transition: all 0.2s;
+}
+
+.cancel-btn:hover {
+  background: #f5f5f5;
+  border-color: #999;
+}
